@@ -1,0 +1,215 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 53px;
+    background: #212121;
+}
+
+header{
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 70px;
+    margin: 0;
+    list-style-type: none; /* убираем маркировку списка */
+}
+
+.menu .menu_link{
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 29px;
+}
+
+.subheader {
+    position: absolute; /* для того, чтобы элемент наехал на промо и не забываем прописать позицию релатив родительскому тегу хеадер */
+    width: 100%;
+    height: 87px;
+    background: rgba(0,0,0, .6); /* устанавливаем альфа-канал, чтобы указать 60 процентов прозрачности фонового цвета */
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 17px;
+    max-width: 100%;
+}
+
+
+.subheader .subheader_official {
+    font-weight: 100;
+    font-size: 13px;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    margin-top: 21px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 22px;
+    width: 172px;
+    height: 46px;   
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo{
+    min-height: 799px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 185px 0;
+}
+
+.promo .promo_header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons{
+    min-height: 851px;
+    padding: 77px 0 67px 0;
+}
+
+.reasons_row{
+    min-height: 150px;
+    margin-top: 15px;
+    margin: 15px 0;
+}
+
+.label{
+    display: block;
+    margin: 0 auto;
+    padding: 2 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    border: none;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .reasons_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reasons .reasons_item .reasons_round{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-top: 32px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 60%;
+}
+
+
+.reasons .reasons_item .reasons_descr{
+    margin-left: 130px;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
+
+.reasons .reasons_item .reasons_descr span{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
